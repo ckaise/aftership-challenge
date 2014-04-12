@@ -4,6 +4,10 @@ var should = require('should'),
 
 describe('Test: .is', function() {
 
+	// Courier: http://www.usps.com
+	// Hints: You can apply the API from their web site
+	// Time need: less than an hour if you have the api key
+
 	describe('Track @ usps(\'1ZXF68280392966078\')', function() {
 
 		var usps = {
@@ -20,6 +24,10 @@ describe('Test: .is', function() {
 			result.should.eql(usps);
 		});
 	});
+
+	// Courier: http://www.hongkongpost.com/
+	// Hints: There is no official API from hongkongpost, but you may use web or other method to get the result easily.
+	// Time need: less than an hour if you find the correct way
 
 	describe('Track @ hkpost(\'CP889331175HK\')', function() {
 
@@ -70,6 +78,9 @@ describe('Test: .is', function() {
 	});
 
 	describe('Track @ dpduk(\'15502370264989N\')', function() {
+		// Courier: http://www.dpduk.co.uk
+		// Hints: Not that easy, if you can't find the magic in the cookies
+		// Time need: We spent two days to dig out the magic. Once you know it, can be done within 2 hours.
 
 		var dpduk = {'checkpoints': [
 			{
