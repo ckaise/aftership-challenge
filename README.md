@@ -2,10 +2,12 @@
 
 The goal of this challenge is to get the tracking information from the courier's system.
 
-For example:
+There are 3 tests:
 
 ```
-
+www.usps.com: 9102999999302024326992
+www.hongkongpost.com: CP889331175HK
+www.dpduk.co.uk: 15502370264989N
 
 ```
 
@@ -14,7 +16,6 @@ For example:
 
 The first thing you should do is read `test/index.js`. It is the **canonical reference**. As long as your crawler correctly implements the reference tests, it is considered a correct solution.
 
-.
 
 # Usage
 
@@ -29,7 +30,7 @@ The first thing you should do is read `test/index.js`. It is the **canonical ref
 
 ## Hints
 
-* Before starting, try to see what AfterShip API, you will get a better idea what tracking info should return.
+* Before starting, try to see how AfterShip API work, you will get a better idea what tracking info should return.
 * You can use ANY method to get the tracking result, including API, web crawler, or even you paid someone else to code for you. LoL
 
 ## Scoring
