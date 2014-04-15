@@ -78,7 +78,7 @@ describe('Test: .is', function() {
 	});
 
 	describe('Track @ dpduk(\'15502370264989N\')', function() {
-		// Courier: http://www.dpduk.co.uk
+		// Courier: http://www.dpd.co.uk
 		// Hints: Not that easy, if you can't find the magic in the cookies
 		// Time need: We spent two days to dig out the magic. Once you know it, can be done within 2 hours.
 

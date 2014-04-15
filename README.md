@@ -7,7 +7,7 @@ There are 3 tests:
 ```
 www.usps.com: 9102999999302024326992
 www.hongkongpost.com: CP889331175HK
-www.dpduk.co.uk: 15502370264989N
+www.dpd.co.uk: 15502370264989N
 
 ```
 
