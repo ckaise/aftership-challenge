@@ -8,7 +8,7 @@ describe('Test: .is', function() {
 	// Hints: You can apply the API from their web site
 	// Time need: less than an hour if you have the api key
 
-	describe('Track @ usps(\'1ZXF68280392966078\')', function() {
+	describe('Track @ usps(\'9102999999302024326992\')', function() {
 
 		var usps = {
 			checkpoints: [
