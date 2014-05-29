@@ -8,19 +8,19 @@ describe('Test: .is', function() {
 	// Hints: You can apply the API from their web site
 	// Time need: less than an hour if you have the api key
 
-	describe('Track @ usps(\'9102999999302024326992\')', function() {
+	describe('Track @ usps(\'9405903699300184125060\')', function() {
 
 		var usps = {
 			checkpoints: [
 				{
 					country_name: '',
 					message: 'Delivered',
-					checkpoint_time: '2014-01-15T12:57:00'
+					checkpoint_time: '2014-05-16T12:00:00'
 				}
 			]
 		};
 		it('Expect return true', function() {
-			var result = Courier.usps('1ZXF68280392966078');
+			var result = Courier.usps('9405903699300184125060');
 			result.should.eql(usps);
 		});
 	});
