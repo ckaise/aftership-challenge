@@ -27,6 +27,7 @@ The first thing you should do is read `test/index.js`. It is the **canonical ref
 4. Implement `Courier` in `lib/index.js`
 5. Ensure all tests pass in node via `npm test`
 6. When finished, send us an email to ask for a review
+7. You may modify the test case, or using other tracking number. as the tracking number in the test case may be expired.
 
 ## Hints
 
