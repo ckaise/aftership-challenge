@@ -5,9 +5,31 @@ The goal of this challenge is to get the tracking information from the courier's
 There are 3 tests:
 
 ```
+
 www.usps.com: 9102999999302024326992
 www.hongkongpost.com: CP889331175HK
 www.dpd.co.uk: 15502370264989N
+
+
+More Sample:
+www.usps.com
+9400109699939938223564
+9374889949033131111143
+9405509699939943080223
+
+
+www.hongkongpost.com
+RC933607107HK
+RT224265042HK
+LK059460815HK
+
+
+www.ups.com
+1Z602A6E0315093333
+1ZE155W1YW70248655
+1ZE155W1YW70248520
+1Z17R06A0367864113
+
 
 ```
 
